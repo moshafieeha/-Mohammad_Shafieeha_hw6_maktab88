@@ -1,0 +1,82 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(./Vazirmatn-VariableFont_wght.ttf);
+}
+
+* {
+  border: none;
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: myFirstFont;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-image: url("./papers.co-mc60-wallpaper-dark-sea-storm-night-ocean-35-3840x2160-4k-wallpaper.jpg");
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.62);
+  border-radius: 8px;
+  width: 25vw;
+  height: 40vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: space-around;
+}
+
+h3 {
+  color: white;
+}
+
+.input {
+  direction: rtl;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.back {
+  width: 15%;
+  height: 100%;
+  background-color: rgb(205, 205, 205);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.btn {
+  width: 100%;
+  font-size: 14px;
+  color: #fff;
+  background: linear-gradient(90deg, #00cc44 0%, #09a31e 100%);
+  padding: 10px;
+  border-radius: 8px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transition: 500ms;
+  background: white;
+  color: black;
+}
+
+p {
+  color: #fff;
+}
